@@ -1,17 +1,17 @@
-import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import NavbarLink from '../NavbarLink/NavbarLink';
 
 export default function Navbar() {
     return (
         <>
             <header>
                 <nav className={styles.navegacao}>
-                    <Link className={styles.link} to={'/'}>
+                    <NavbarLink to="/">
                         Início
-                    </Link>
-                    <Link className={styles.link} to={'/sobremim'}>
+                    </NavbarLink>
+                    <NavbarLink to="/sobremim">
                         Sobre mim
-                    </Link>
+                    </NavbarLink>
                 </nav>
             </header>
         </>
