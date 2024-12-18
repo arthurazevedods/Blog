@@ -2,8 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Inicio from "./pages/Inicio/Inicio"
 import SobreMim from "./pages/SobreMim/SobreMim"
 import Navbar from "./components/Navbar/Navbar"
-
-
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
           <Route path="/sobremim" element={<SobreMim />} />
           <Route path="*" element={<div>Página não encontrada</div>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
