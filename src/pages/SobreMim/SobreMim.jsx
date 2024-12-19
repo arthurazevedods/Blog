@@ -1,7 +1,9 @@
+
+
 export default function SobreMim(){
     return(
         <>
-            <h2>Sobre Mim</h2>
+            <h1>Sobre Mim</h1>
         </>
     )
 }
