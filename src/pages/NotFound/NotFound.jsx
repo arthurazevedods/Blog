@@ -1,5 +1,6 @@
-import style from './NotFound.module.css'
-import error from '@assets/erro_404.png'
+import MainButton from "@components/MainButton/MainButton";
+import style from './NotFound.module.css';
+import error from '@assets/erro_404.png';
 export default function NotFound() {
     return (
         <>
@@ -16,7 +17,7 @@ export default function NotFound() {
                 </p>
 
                 <div className={style.botaoContainer}>
-                    <button>voltar</button>
+                    <MainButton>Voltar</MainButton>
                 </div>
 
                 <img className={style.imagemCachorro} src={error} alt="Imagem de um cachorro" />

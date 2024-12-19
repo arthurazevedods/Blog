@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Post.module.css';
+import MainButton from '@components/MainButton/MainButton';
 /* eslint-disable react/prop-types */
 export default function Post({ post }) {
     return (
@@ -15,8 +16,7 @@ export default function Post({ post }) {
                     <h2 className={styles.titulo}>
                         {post.titulo}
                     </h2>
-
-                    <button className={styles.botaoLer}>Ler</button>
+                    <MainButton>Ler</MainButton>
                 </div>
             </Link>
         </>
