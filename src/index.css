@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +9,11 @@
 :root {
   --azul-escuro: #041833;
   --azul-medio: #1875E8;
+  --laranja: #F79477;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
-  --fonte-principal: 'Raleway', sans-serif;
+  --fonte-principal: 'Parkinsans', sans-serif;
   --fonte-secundaria: 'Poppins', sans-serif;
 
   font-family: var(--fonte-principal);

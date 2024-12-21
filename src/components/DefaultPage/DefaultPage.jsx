@@ -1,11 +1,11 @@
-import Banner from "../../components/Banner/Banner";
+import Hero from "../../components/Hero/Hero";
 import { Outlet } from "react-router-dom";
 
 export default function DefaultPage() {
     return (
         <>
             <main>
-                <Banner></Banner>
+                <Hero></Hero>
 
                 {/*Renderiza conteúdo da rota*/}
                 <Outlet />
