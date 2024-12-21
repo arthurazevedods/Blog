@@ -7,7 +7,7 @@ export default function Banner() {
             <div className={styles.banner}>
                 <div className={styles.apresentacao}>
                     <h1 className={styles.titulo}>
-                        Blog Sem Nome
+                        Codar Br
                     </h1>
 
                     <p className={styles.paragrafo}>
