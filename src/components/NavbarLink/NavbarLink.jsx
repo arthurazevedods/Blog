@@ -3,11 +3,11 @@ import styles from './NavbarLink.module.css'
 import { Link, useLocation } from 'react-router-dom';
 export default function NavbarLink({ children, to }) {
     const local = useLocation(); //hook
-
-
+     
     return (
         <>
-            <Link className={`${styles.link} ${local.pathname === to ? styles.destaqueLink : ""} `} to={to} >
+
+            <Link className={`${children === "CODAR BR" ? styles.titulo: styles.link} ${local.pathname === to ? styles.destaqueLink : ""} `} to={to} >
                 {children}
             </Link>
         </>
